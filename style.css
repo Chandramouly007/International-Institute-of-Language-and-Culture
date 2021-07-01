@@ -1,0 +1,315 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;   
+}
+
+.image {
+    background: url(https://wallpapercave.com/wp/wp2140467.jpg);
+    background-size: cover;
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 120vh;
+}
+
+.logo {
+    float: left;
+    padding: 6px 8px;
+    margin: 4px 4px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid white;    
+    transition: 0.3s;
+    cursor:pointer;
+}
+.logo:hover {
+    font-size: 22px;
+    padding:7px 10px;
+    box-shadow: #eadbee 5px 5px 20px;
+    border-radius:5px;
+}
+
+
+.navbar {
+    width: 100%;
+    height: 55px;
+    line-height:30px;
+    overflow: hidden;
+    background-color: #212F3D;
+    position: fixed;
+    z-index:1000;
+}
+
+.navbar ul {
+    float: right;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 6px 8px;
+    font-size: 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+    font-weight: bold;
+    padding:10px;
+}
+
+.navbar ul li a:hover {
+    font-size: 1rem;
+    color: #F5B041;
+    box-shadow: #eadbee 2px 2px 10px;
+    border-radius:5px;
+}
+
+form h1 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 3rem;
+    font-weight: bold;
+    position: relative;
+    top: 150px;
+    font-size: 30px;
+    color: white;
+    font-family: 'BioRhyme', serif;
+    transition: 0.2s;
+    display: block;
+}
+form h1:hover {
+    font-size:33px;
+    
+}
+
+form .search {
+    position: relative;
+    padding:8px 6px;
+    border-radius: 10px;
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    top: 270px;
+    box-shadow: none;
+    font-family: 'BioRhyme';
+    transition: 0.2s;
+}
+
+form .search:hover {
+    box-shadow: #212F3D 2px 2px 10px;
+}
+
+.submit {
+    display: block;
+    margin: 0 auto;
+    padding: 6px 15px;
+    align-items: center;
+    border-radius: 12px;
+    position: relative;
+    top: 280px;
+    transition: 0.2s;
+    font-family: 'BioRhyme';
+}
+
+.submit:hover {
+    background-color: #212F3D;
+    color:white;
+    box-shadow: #212F3D 2px 2px 10px;
+}
+
+.header {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 3.2rem;
+    font-weight: bold;
+}
+
+.header p {
+    text-align: justify;
+    text-transform:initial;
+    line-height: 2rem;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+.grad-image {
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.grad-image:hover {
+    box-shadow: #212F3D 2px 2px 20px;
+} 
+
+.survey h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+#admission {
+    padding: 15px;
+    margin: 35px;
+}
+.gif {
+    float:right;
+    width:30%;
+    height: 40vh;
+    align-items: center;
+    padding: auto;
+    transition: 0.3s;
+}
+.gif:hover {
+    box-shadow: #212F3D 2px 2px 20px;
+}
+#apply {
+    padding: 55px 10px;
+    margin: 5px;
+    width: 100%;
+    height:50vh;
+}
+
+#name {
+    padding: 10px 22px;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    transition: 0.2s;   
+}
+#name:hover {
+    box-shadow: #212F3D 1px 1px 5px;
+}
+#email {
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: 0.2s; 
+}
+
+#email:hover {
+    box-shadow: #212F3D 1px 1px 5px;
+}
+
+#number {
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+#number:hover {
+    box-shadow: #212F3D 1px 1px 5px;
+}
+
+#gallery {
+    padding: 30px;
+    display: block;
+    justify-content: center;
+}
+
+#gallery h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 25px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .layer h3 {
+      font-family: BioRhyme;
+      text-align: center;
+      font-weight: lighter;
+  }
+  .gal-image {
+      border-radius: 15px;
+      transition: 0.2s;
+      cursor: pointer;
+  }
+
+  .gal-image:hover {
+    box-shadow: #212F3D 1px 1px 10px;
+  }
+
+  #contact-us {
+      display: block;
+      top:300px;
+      text-align: center;
+      padding: 2rem;
+  }
+  footer {
+      padding:20px;
+      display: block;
+      background: rgb(0,0,0,0.7);
+      border: 2px solid;
+  }
+  footer ul {
+      list-style:none;
+      display: inline-block;
+      padding: 0px;
+  }
+  footer ul li {
+      margin-top:15px;
+  }
+  footer ul li a {
+      text-decoration:none;
+      color:white;
+      padding-top:0px;
+      height: 5vh;
+    }
+
+    footer ul li a:hover {
+        color: #F5B041;
+    }
+.icons {
+    display: flex;
+    padding: 5px 10px;
+    width:100%;
+    justify-content: center;
+
+}
+ .icons .fa {
+	color: white;
+	cursor: pointer;
+	padding: 10px 0;
+    margin-right: 15px;
+    transition: 0.1s;
+}  
+.icons .fa:hover {
+    color: #F5B041;
+
+}
+  h4 { 
+      text-align: center;
+      color:#F5B041;
+      padding-bottom: 5px;
+  }  
+  .second-row {
+      list-style: none;
+      color:white;
+      width: 92%;
+      justify-content: right;
+    }
+  .second-row li {
+      text-align: right;
+      height: 5vh;
+  }
+  .second-row li:hover {
+    color:#F5B041;
+  } 
+
